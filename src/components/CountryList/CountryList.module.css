@@ -1,0 +1,32 @@
+.country-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: auto;
+    justify-items: center;
+    row-gap: 50px;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color:hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+
+@media screen and (max-width: 1300px) {
+    .country-list {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .country-list {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .country-list {
+        grid-template-columns: auto;
+    }
+}

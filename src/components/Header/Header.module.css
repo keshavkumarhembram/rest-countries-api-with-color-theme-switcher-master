@@ -1,0 +1,43 @@
+.header {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+}
+
+.header button {
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0 10px;
+    border: none;
+    background-color: inherit;
+}
+
+.header span {
+    margin: 0 .5rem;
+}
+
+.dark {
+    background-color:hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+
+.dark button {
+    color: inherit;
+}
+
+@media screen and (max-width: 500px){
+    .header h1{
+        font-size: 1.1rem;
+    }
+
+    .header button {
+        font-size: 0.8rem;
+    }
+}
